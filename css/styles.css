@@ -1,0 +1,66 @@
+body {
+    color: white; /* Define a cor do texto como branco */
+    background-color: rgb(5, 5, 5); /* Define a cor de fundo da página como um tom muito escuro de cinza (quase preto) */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto como Arial, com Helvetica e sans-serif como opções de backup */
+    /* em relação ao fundo da página e as fontes das letras */
+}
+
+ul {
+    display: flex; /* Define a exibição da lista como flexível para permitir o uso do Flexbox */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os itens da lista */
+    list-style-type: none; /* Remove os marcadores de estilo da lista */
+    align-items: center; /* Alinha os itens da lista verticalmente ao centro */
+    padding: 16px; /* Adiciona um preenchimento de 16 pixels em todos os lados da lista */
+}
+
+a {
+    color: rgb(11, 15, 226); /* Define a cor do texto dos links como um tom de azul */
+    text-decoration: none; /* Remove a sublinha dos links */
+    /* muda a cor das fontes de texto do link */
+}
+
+header img {
+    width: 150px; /* Define a largura da imagem como 150 pixels */
+    height: 150px; /* Define a altura da imagem como 150 pixels */
+    border-radius: 50%; /* Torna a imagem circular ao arredondar as bordas */
+    border: 5px solid blue; /* Adiciona uma borda azul de 5 pixels em volta da imagem */
+    /* relação a borda do círculo, modificações e outras coisas */
+}
+
+.center {
+    text-align: center; /* Centraliza o texto no elemento */
+    /* centraliza outras páginas web */
+}
+
+footer img {
+    width: 40px; /* Define a largura da imagem do rodapé como 40 pixels */
+    height: 40px; /* Define a altura da imagem do rodapé como 40 pixels */
+    /* trabalha com as imagens, com o rodapé delas, alterando e tudo mais */
+}
+
+footer {
+    display: flex; /* Define a exibição do rodapé como flexível para permitir o uso do Flexbox */
+    justify-content: center; /* Centraliza o conteúdo do rodapé horizontalmente */
+    /* mexe com o rodapé como um todo */
+}
+
+footer a {
+    margin: 20px; /* Adiciona uma margem de 20 pixels ao redor dos links no rodapé */
+    text-align: center; /* Centraliza o texto dos links no rodapé */
+    /* mexe com o link das imagens */
+}
+
+footer p {
+    margin-top: 2px; /* Adiciona uma margem superior de 2 pixels ao parágrafo no rodapé */
+    /* mexe com o parágrafo do topo */
+}
+
+.container {
+    padding: 0px 50px; /* Adiciona um preenchimento horizontal de 50 pixels (esquerda e direita) e nenhum preenchimento vertical (topo e fundo) */
+    /* ele dá espaços nas bordas do site */
+}
+
+nav a:hover {
+    color: rgb(235, 0, 0); /* Define a cor do texto dos links como vermelho quando o cursor do mouse passa sobre eles */
+    /* mexe em relação a imagem, quando eu clico em algo fica verde */
+}
